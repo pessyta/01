@@ -88,6 +88,7 @@ Los principales atributos de anchor son:
     <br>
 
     <a href="/assets/images/capibara.jpeg" download>Descarga un capibara
+
     </a>
 
     <!--Etiquetas divisorias y separadores
@@ -101,6 +102,143 @@ Los principales atributos de anchor son:
     separador.
 
 --> 
+    <br>
+    <h3>Etiqueta de imagen</h3>
+    <!-- <img> etiqueta que sirve para almacenar imágenes
+    Atributos de imagen:
+        - src: El atributo source define la ubicación del archivo (local o remota)
+        - alt: Define un texto alterno a la imagen
+        - wigth: Define el ancho de la imagen
+        - height: Define el alto de la imagen
+    -->
+
+    <img src="/assets/images/ponyo.jpeg" alt="foto de ponyo y yo" width="300px">
+
+    <img src="https://album.mediaset.es/eimg/10000/2020/09/29/clipping_SaGT63_c1a9.jpg" widht="300px" alt="bojack y dayane">
+
+    <a href="https://www.freepik.es/vector-premium/pereza-linda-manta-ordenador-portatil-cafe-ilustracion-dibujos-animados_9241103.htm#query=animal%20programador&position=10&from_view=search&track=ais" target="_blank"><img src="https://img.freepik.com/vector-premium/pereza-linda-manta-ordenador-portatil-cafe-ilustracion-dibujos-animados_138676-1493.jpg" > </a>
+
+    <!--Listas ordenadas y deordenadas
+        <ol> ordered list o lista ordenada
+        <ul lista deordenada
+        <li> list item o elemento de la lista-->
+
+            <h4>Lista ordenada</h4>
+
+            <ol>Lista de asistencia
+                <li>Armando</li>
+                <li>Carlos</li>
+                <li>Mari</li>
+                <li>Zabdiel</li>
+            </ol>
+        
+            <ul>Nombre de mascostas de la CH28
+                <li>Kiara</li>
+                <li>Laike</li>
+                <li>Lucky</li>
+                <li>Morgan</li>
+                <li>Appa</li>
+            </ul>
+        
+            <hr>
+        
+            <ol>Tacos mexicanos
+                <li>Pastor</li>
+                    <ul>
+                        <li>Con salsa de la que pica</li>
+                        <li>Con salsa de la que no pica</li>
+                    </ul>
+                <li>Suadero</li>
+                    <ol>
+                        <li>Con queso</li>
+                        <li>Sin queso</li>
+                        <li>Con papas</li>
+                    </ol>
+                <li>Carnitas</li>
+                    <ol>
+                        <li>Surtida</li>
+                            <ul>
+                                <li>Natural</li>
+                                <li>Con todo</li>
+                            </ul>
+                        <li>Maciza</li>
+                            <ul>
+                                <li>Natural</li>
+                                <li>Con todo</li>
+                            </ul>
+                    </ol>
+                <li>Canasta</li>
+            </ol>
+<hr>
+            <ul>Invitados Cumple
+                <li>Neo</li>
+                <li>Anel</li>
+                <li>Kathy</li>
+                <li>Vane</li>
+                <li>Brenda</li>
+            </ul>
+<br>
+
+            <ol>Menú de pastas
+                <li>Ravioles</li>
+                    <ul>
+                        <li>con espinaca</li>
+                        <li>pesto</li>
+                    </ul>
+                <li>Spaguetti</li>
+                    <ol>
+                        <li>a la boloñesa</li>
+                        <li>alfredo</li>
+                        <li>rojo</li>
+                    </ol>
+    
+            </ol>
+
+    <!--Las listas de definiciones nos permiten contener propiamente definiciones
+    <dl> Nos sirve para indicar que es una definition list o lista de definición
+    <dt> Nos indica que es una definition term o termino de definicion
+    <dd> Nos indica una definición-->
+
+    <dl>
+        <dt>peyito:</dt>
+        <dd>es un animal de cuatro patas bonitos que viven en casa pero tmbn hay algunos en la calle:c </dd>
+        <dt>miau:</dt>
+        <dd>mamifero con garritas ocultas </dd>
+    </dl>
+
+    <h3>Etiqueta de división</h3>
+    <!--La etiqueta de división se utiliza como contenedor de elementos HTML, que luego se diseñan con CSS o se manipulan con JavaScript.
+    
+            la etiqueta <div></div> se diseña fácilmente utilizando los atributos globales de "class" "id"
+
+            ¡Se puede poner cualquier tipo de contenido dentro de la etiqueta <div>!
+    -->
+
+    <H4>El elemento div</H4>
+
+
+    <div>Hola, soy un contenedor con un texto</div>
+
+    <div>
+        <h5>Soy un h5 dentro de un div</h5>
+        <p>Soy un párrafo viviendo en un div</p>
+    </div>
+
+       <!-- <p>Este es un párrafo de comparación con el div</p>-->
+
+       <div class="container" id="contenedorPadre" style="color:blue; border: 1px solid red; background-color: gold;">
+        <p>Hola, soy un párrafo de un div</p>
+        <h4>Hola, soy un h4 hermano del párrafo</h4>
+        <div class="container" id="contenedorHijo"  style="color: red; border:3px solid green; background-color: aqua;">Hola, soy un div dentro de otro div</div>
+    </div> 
+
+    <h3>Etiqueta span</h3>
+    <!--La etiqueta span es un contenedor de línea que se utiliza para marcar una parte de un texto o una parte de un documento.
+    Es parecido a >div> pero <span> es un elemento a nivel línea-->
+
+    <p style="color: blueviolet; font-weight: bolder;">
+        Ponyo es una perrita consecuencia de la <span style="color:green">pandemia</span>, tenemos casi 3 años juntas y aunque el camino ha sido completamente retador, ya que siempre fui de perros pequeñas, si algo le llegara a pasar no se qué haría. Aunque su nombre termine en o es <span style="color: pink; font-weight: 100; font-family: cursive;">niña</span>.
+    </p>
 
 </body>
-</html>
+</html> 
